@@ -4,18 +4,18 @@ package entidades;
 public class Angulo {
   Double grados;
 
-  Double convertirACentesimales(Double grados) {
+  Double convertirACentesimales() {
     return grados * (10.0 / 9.0);
   }
 
-  Double convertirARadianes(Double grados) {
+  Double convertirARadianes() {
     return 180 / (Math.PI * grados);
   }
 
   void mostrarResultados() {
     System.out.println("Grados: " + grados);
-    System.out.println("Centesimales: " + convertirACentesimales(grados));
-    System.out.println("Radianes: " + convertirARadianes(grados));
+    System.out.println("Centesimales: " + convertirACentesimales());
+    System.out.println("Radianes: " + convertirARadianes());
   }
 
   public static void main(String[] args) {

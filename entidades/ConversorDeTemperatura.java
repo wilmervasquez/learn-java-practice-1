@@ -4,23 +4,23 @@ package entidades;
 public class ConversorDeTemperatura {
   Double gradosCelsius;
 
-  Double convertirAFarenheit(Double gradosCelsius) {
+  Double convertirAFarenheit() {
     return (gradosCelsius * 9/5) + 32;
   }
 
-  Double convertirAKelvin(Double gradosCelsius) {
+  Double convertirAKelvin() {
     return gradosCelsius + 273.15;
   }
 
-  Double convertirARankine(Double gradosCelsius) {
+  Double convertirARankine() {
     return (9/5) * gradosCelsius + 492;
   }
 
   void mostrarResultados() {
     System.out.println("Grados Celsius: " + gradosCelsius + "°");
-    System.out.println("Farenheit: " + convertirAFarenheit(gradosCelsius));
-    System.out.println("Kelvin: " + convertirAKelvin(gradosCelsius));
-    System.out.println("Rankine: " + convertirARankine(gradosCelsius));
+    System.out.println("Farenheit: " + convertirAFarenheit());
+    System.out.println("Kelvin: " + convertirAKelvin());
+    System.out.println("Rankine: " + convertirARankine());
   }
 
   public static void main(String[] args) {

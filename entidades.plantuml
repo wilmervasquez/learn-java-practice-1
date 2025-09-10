@@ -4,94 +4,101 @@ class AreaTriangulo {
   ladoA: Double
   ladoB: Double
   ladoC: Double
+  semiperimetro: Double
   calcularArea(): Double
-  mostrar(): void
+  mostrarResultadoResultado(): void
   main(args[]: String): void
 }
 
 ' 1.12
 class HipotenusaTriangulo {
-  a: Double
-  b: Double
-  h: Double
+  ladoA: Double
+  ladoB: Double
   calcularHipotenusa(): Double
-  mostrar(): void
+  mostrarResultado(): void
   main(args[]: String): void
 }
 ' 1.13
 class TeoremaDelCoseno {
-  a: Double
-  b: Double
-  h: Double
-  calcularHipotenusa(): Double
-  mostrar(): void
+  ladoB: DOuble
+  ladoC: DOuble
+  alfa: DOuble
+  calcularLadoDesconocido(): Double
+  mostrarResultado(): void
   main(args[]: String): void
 }
 
 ' 1.14
 class DistanciaDePuntos {
-  a: Double
-  b: Double
-  h: Double
-  calcularHipotenusa(): Double
-  mostrar(): void
+  x1: Double
+  y1: Double
+  x2: Double
+  y2: Double
+  calcularDistancia(): Double
+  mostrarResultado(): void
   main(args[]: String): void
 }
 
 ' 1.15
 class ComplejoACoordenadasPolares {
-  a: Double
-  b: Double
-  h: Double
-  calcularHipotenusa(): Double
-  mostrar(): void
+  real: Double
+  imaginario: Double
+  calcularModulo(): Double
+  calcularAngulo(): Double
+  mostrarResultado(): void
   main(args[]: String): void
 }
 ' 1.16
 class Prestamo {
-  a: Double
-  b: Double
-  h: Double
-  calcularHipotenusa(): Double
-  mostrar(): void
+  capital: Double
+  tasaDeInteres: Double
+  periodos: Integer
+  calcularMontoADevolver(): Double
+  mostrarResultado(): void
   main(args[]: String): void
 }
 ' 1.17
 class LeyDeSenos {
-  a: Double
-  b: Double
-  h: Double
-  calcularHipotenusa(): Double
-  mostrar(): void
+  ladoA: Double
+  ladoB: Double
+  ladoC: Double
+  alfa: Double
+  beta: Double
+  gamma: Double
+  calcularLadoA(): Double 
+  calcularLadoB(): Double 
+  mostrarResultado(): void
   main(args[]: String): void
 }
 
 ' 1.18
 class Angulo {
-  a: Double
-  b: Double
-  h: Double
-  calcularHipotenusa(): Double
-  mostrar(): void
+  grados: Double
+  convertirACentesimales(): Double
+  convertirARadianes(): Double
+  mostrarResultadoResultados(): void
   main(args[]: String): void
 }
 
 ' 1.19
-class Tiempo {
-  a: Double
-  b: Double
-  h: Double
-  calcularHipotenusa(): Double
-  mostrar(): void
+class ConversorDeAngulo {
+  grado: Double 
+  minuto: Double
+  segundo: Double
+  calcularValorEnGradosCentesimales(): Double
+  convertirAGradosCentesimales(): Double
+  convertirAMinutosCentesimales(): Double
+  convertirASegundosCentesimales(): Double
+  mostrarResultado(): void
   main(args[]: String): void
 }
 ' 1.20
-class Temperatura {
-  a: Double
-  b: Double
-  h: Double
-  calcularHipotenusa(): Double
-  mostrar(): void
+class ConversorDeTemperatura {
+  gradosCelsius: Double
+  convertirAFarenheit(): Double
+  convertirAKelvin(): Double
+  convertirARankine(): Double
+  mostrarResultado(): void
   main(args[]: String): void
 }
 @enduml

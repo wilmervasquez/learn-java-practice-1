@@ -1,5 +1,5 @@
 run:
-	javac entidades/AreaTriangulo.java
+	javac entidades/*.java
 	java entidades/AreaTriangulo
 
 	
