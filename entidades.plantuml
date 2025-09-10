@@ -1,0 +1,97 @@
+@startuml y
+' 1.11
+class AreaTriangulo {
+  ladoA: Double
+  ladoB: Double
+  ladoC: Double
+  calcularArea(): Double
+  mostrar(): void
+  main(args[]: String): void
+}
+
+' 1.12
+class HipotenusaTriangulo {
+  a: Double
+  b: Double
+  h: Double
+  calcularHipotenusa(): Double
+  mostrar(): void
+  main(args[]: String): void
+}
+' 1.13
+class TeoremaDelCoseno {
+  a: Double
+  b: Double
+  h: Double
+  calcularHipotenusa(): Double
+  mostrar(): void
+  main(args[]: String): void
+}
+
+' 1.14
+class DistanciaDePuntos {
+  a: Double
+  b: Double
+  h: Double
+  calcularHipotenusa(): Double
+  mostrar(): void
+  main(args[]: String): void
+}
+
+' 1.15
+class ComplejoACoordenadasPolares {
+  a: Double
+  b: Double
+  h: Double
+  calcularHipotenusa(): Double
+  mostrar(): void
+  main(args[]: String): void
+}
+' 1.16
+class Prestamo {
+  a: Double
+  b: Double
+  h: Double
+  calcularHipotenusa(): Double
+  mostrar(): void
+  main(args[]: String): void
+}
+' 1.17
+class LeyDeSenos {
+  a: Double
+  b: Double
+  h: Double
+  calcularHipotenusa(): Double
+  mostrar(): void
+  main(args[]: String): void
+}
+
+' 1.18
+class Angulo {
+  a: Double
+  b: Double
+  h: Double
+  calcularHipotenusa(): Double
+  mostrar(): void
+  main(args[]: String): void
+}
+
+' 1.19
+class Tiempo {
+  a: Double
+  b: Double
+  h: Double
+  calcularHipotenusa(): Double
+  mostrar(): void
+  main(args[]: String): void
+}
+' 1.20
+class Temperatura {
+  a: Double
+  b: Double
+  h: Double
+  calcularHipotenusa(): Double
+  mostrar(): void
+  main(args[]: String): void
+}
+@enduml
