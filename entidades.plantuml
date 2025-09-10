@@ -6,7 +6,7 @@ class AreaTriangulo {
   ladoC: Double
   semiperimetro: Double
   calcularArea(): Double
-  mostrarResultadoResultado(): void
+  mostrarResultados(): void
   main(args[]: String): void
 }
 
@@ -15,7 +15,7 @@ class HipotenusaTriangulo {
   ladoA: Double
   ladoB: Double
   calcularHipotenusa(): Double
-  mostrarResultado(): void
+  mostrarResultados(): void
   main(args[]: String): void
 }
 ' 1.13
@@ -24,7 +24,7 @@ class TeoremaDelCoseno {
   ladoC: DOuble
   alfa: DOuble
   calcularLadoDesconocido(): Double
-  mostrarResultado(): void
+  mostrarResultados(): void
   main(args[]: String): void
 }
 
@@ -35,7 +35,7 @@ class DistanciaDePuntos {
   x2: Double
   y2: Double
   calcularDistancia(): Double
-  mostrarResultado(): void
+  mostrarResultados(): void
   main(args[]: String): void
 }
 
@@ -45,7 +45,7 @@ class ComplejoACoordenadasPolares {
   imaginario: Double
   calcularModulo(): Double
   calcularAngulo(): Double
-  mostrarResultado(): void
+  mostrarResultados(): void
   main(args[]: String): void
 }
 ' 1.16
@@ -54,7 +54,7 @@ class Prestamo {
   tasaDeInteres: Double
   periodos: Integer
   calcularMontoADevolver(): Double
-  mostrarResultado(): void
+  mostrarResultados(): void
   main(args[]: String): void
 }
 ' 1.17
@@ -67,7 +67,7 @@ class LeyDeSenos {
   gamma: Double
   calcularLadoA(): Double 
   calcularLadoB(): Double 
-  mostrarResultado(): void
+  mostrarResultados(): void
   main(args[]: String): void
 }
 
@@ -76,7 +76,7 @@ class Angulo {
   grados: Double
   convertirACentesimales(): Double
   convertirARadianes(): Double
-  mostrarResultadoResultados(): void
+  mostrarResultados(): void
   main(args[]: String): void
 }
 
@@ -89,7 +89,7 @@ class ConversorDeAngulo {
   convertirAGradosCentesimales(): Double
   convertirAMinutosCentesimales(): Double
   convertirASegundosCentesimales(): Double
-  mostrarResultado(): void
+  mostrarResultados(): void
   main(args[]: String): void
 }
 ' 1.20
@@ -98,7 +98,7 @@ class ConversorDeTemperatura {
   convertirAFarenheit(): Double
   convertirAKelvin(): Double
   convertirARankine(): Double
-  mostrarResultado(): void
+  mostrarResultados(): void
   main(args[]: String): void
 }
 @enduml
