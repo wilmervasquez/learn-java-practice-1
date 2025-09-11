@@ -6,18 +6,16 @@ classDiagram
     ladoB: Double
     ladoC: Double
     semiperimetro: Double
-    calcularArea(): Double
-    mostrarResultados(): void
-    main(args[]: String): void
+    calcularArea() Double
+    mostrarResultados() void
   }
 
   %% 1.12
   class HipotenusaTriangulo {
     ladoA: Double
     ladoB: Double
-    calcularHipotenusa(): Double
-    mostrarResultados(): void
-    main(args[]: String): void
+    calcularHipotenusa() Double
+    mostrarResultados() void
   }
 
   %% 1.13
@@ -25,9 +23,8 @@ classDiagram
     ladoB: DOuble
     ladoC: DOuble
     alfa: DOuble
-    calcularLadoDesconocido(): Double
-    mostrarResultados(): void
-    main(args[]: String): void
+    calcularLadoDesconocido() Double
+    mostrarResultados() void
   }
 
   %% 1.14
@@ -36,19 +33,17 @@ classDiagram
     y1: Double
     x2: Double
     y2: Double
-    calcularDistancia(): Double
-    mostrarResultados(): void
-    main(args[]: String): void
+    calcularDistancia() Double
+    mostrarResultados() void
   }
 
   %% 1.15
   class ComplejoACoordenadasPolares {
     real: Double
     imaginario: Double
-    calcularModulo(): Double
-    calcularAngulo(): Double
-    mostrarResultados(): void
-    main(args[]: String): void
+    calcularModulo() Double
+    calcularAngulo() Double
+    mostrarResultados() void
   }
 
   %% 1.16
@@ -56,9 +51,8 @@ classDiagram
     capital: Double
     tasaDeInteres: Double
     periodos: Integer
-    calcularMontoADevolver(): Double
-    mostrarResultados(): void
-    main(args[]: String): void
+    calcularMontoADevolver() Double
+    mostrarResultados() void
   }
 
   %% 1.17
@@ -69,19 +63,17 @@ classDiagram
     alfa: Double
     beta: Double
     gamma: Double
-    calcularLadoA(): Double 
-    calcularLadoB(): Double 
-    mostrarResultados(): void
-    main(args[]: String): void
+    calcularLadoA() Double 
+    calcularLadoB() Double 
+    mostrarResultados() void
   }
 
   %% 1.18
   class Angulo {
     grados: Double
-    convertirACentesimales(): Double
-    convertirARadianes(): Double
-    mostrarResultados(): void
-    main(args[]: String): void
+    convertirACentesimales() Double
+    convertirARadianes() Double
+    mostrarResultados() void
   }
 
   %% 1.19
@@ -89,21 +81,19 @@ classDiagram
     grado: Double 
     minuto: Double
     segundo: Double
-    calcularValorEnGradosCentesimales(): Double
-    convertirAGradosCentesimales(): Double
-    convertirAMinutosCentesimales(): Double
-    convertirASegundosCentesimales(): Double
-    mostrarResultados(): void
-    main(args[]: String): void
+    calcularValorEnGradosCentesimales() Double
+    convertirAGradosCentesimales() Double
+    convertirAMinutosCentesimales() Double
+    convertirASegundosCentesimales() Double
+    mostrarResultados() void
   }
 
   %% 1.20
   class ConversorDeTemperatura {
     gradosCelsius: Double
-    convertirAFarenheit(): Double
-    convertirAKelvin(): Double
-    convertirARankine(): Double
-    mostrarResultados(): void
-    main(args[]: String): void
+    convertirAFarenheit() Double
+    convertirAKelvin() Double
+    convertirARankine() Double
+    mostrarResultados() void
   }
 ```
