@@ -1,4 +1,4 @@
-package entidades;
+package entidades.ejercicio10;
 
 // 1.20. CONVERSIÓN DE GRADOS CELSIUS A FARENHEIT, KELVIN Y RANKINE
 public class ConversorDeTemperatura {
@@ -21,13 +21,5 @@ public class ConversorDeTemperatura {
     System.out.println("Farenheit: " + convertirAFarenheit());
     System.out.println("Kelvin: " + convertirAKelvin());
     System.out.println("Rankine: " + convertirARankine());
-  }
-
-  public static void main(String[] args) {
-    ConversorDeTemperatura objeto = new ConversorDeTemperatura();
-
-    objeto.gradosCelsius = 57.0;
-
-    objeto.mostrarResultados();
   }
 }

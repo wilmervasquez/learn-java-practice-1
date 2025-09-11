@@ -1,4 +1,4 @@
-package entidades;
+package entidades.ejercicio04;
 
 // 1.14. DISTANCIA ENTRE DOS PUNTOS
 public class DistanciaDePuntos {
@@ -13,16 +13,5 @@ public class DistanciaDePuntos {
 
   void mostrarResultado() {
     System.out.println("Resultado(Distancia): " + calcularDistancia());
-  }
-
-  public static void main(String[] args) {
-    DistanciaDePuntos objeto = new DistanciaDePuntos();
-
-    objeto.x1 = 2.0;
-    objeto.y1 = 2.0;
-    objeto.x2 = 2.0;
-    objeto.y2 = 2.0;
-
-    objeto.mostrarResultado();
   }
 }

@@ -1,4 +1,4 @@
-package entidades;
+package entidades.ejercicio08;
 
 // 1.18. CONVERSIÓN DE GRADOS SEXAGESIMALES A CENTESIMALES Y RADIANES
 public class Angulo {
@@ -16,14 +16,6 @@ public class Angulo {
     System.out.println("Grados: " + grados);
     System.out.println("Centesimales: " + convertirACentesimales());
     System.out.println("Radianes: " + convertirARadianes());
-  }
-
-  public static void main(String[] args) {
-    Angulo objeto = new Angulo();
-
-    objeto.grados = 30.0;
-
-    objeto.mostrarResultados();
   }
 }
 

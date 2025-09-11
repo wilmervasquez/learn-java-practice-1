@@ -1,4 +1,4 @@
-package entidades;
+package entidades.ejercicio01;
 
 // 1.11. ÁREA DE UN TRIÁNGULO EN FUNCIÓN DEL SEMIPERÍMETRO
 public class AreaTriangulo {
@@ -19,15 +19,5 @@ public class AreaTriangulo {
 
   void mostrarResultado() {
     System.out.println("Resultado(Area): " + calcularArea());
-  }
-
-  public static void main(String[] args) {
-    AreaTriangulo objeto = new AreaTriangulo();
-
-    objeto.ladoA = 12.0;
-    objeto.ladoB = 6.0;
-    objeto.ladoC = 8.0;
-
-    objeto.mostrarResultado();
   }
 }

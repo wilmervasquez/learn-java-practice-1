@@ -1,4 +1,4 @@
-package entidades;
+package entidades.ejercicio07;
 
 // 1.17. LEY DE SENOS
 public class LeyDeSenos {
@@ -23,16 +23,5 @@ public class LeyDeSenos {
     System.out.println("Resultado:");
     System.out.println("Lado A: " + calcularLadoA());
     System.out.println("Lado B: " + calcularLadoB());
-  }
-
-  public static void main(String[] args) {
-    LeyDeSenos objeto = new LeyDeSenos();
-
-    objeto.ladoC = 10.0;
-    objeto.alfa = Math.toRadians(30);
-    objeto.beta = Math.toRadians(45);
-    objeto.gamma = Math.toRadians(60);
-
-    objeto.mostrarResultado();
   }
 }

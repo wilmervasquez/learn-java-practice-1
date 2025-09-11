@@ -1,4 +1,4 @@
-package entidades;
+package entidades.ejercicio09;
 
 // 1.19. CONVERSIÓN DEL SEXAGESIMAL U°V’W’’ A GRADOS, MINUTOS Y SEGUNDOS CENTESIMALES
 public class ConversionDeAngulo {
@@ -25,15 +25,5 @@ public class ConversionDeAngulo {
   void mostrarResultados() {
     System.out.println("El angulo en centesimales equivale a: ");
     System.out.println(convertirAGradosCentesimales() + "° " + convertirAMinutosCentesimales() + "' " + convertirASegundosCentesimales() + "\"");
-  }
-
-  public static void main(String[] args) {
-    ConversionDeAngulo objeto = new ConversionDeAngulo();
-
-    objeto.grado = 30.0;
-    objeto.minuto = 15.0;
-    objeto.segundo = 50.0;
-
-    objeto.mostrarResultados();
   }
 }

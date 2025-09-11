@@ -1,4 +1,4 @@
-package entidades;
+package entidades.ejercicio02;
 
 // 1.12. HIPOTENUSA DE UN TRIÁNGULO RECTÁNGULO
 public class HipotenusaTriangulo {
@@ -13,12 +13,5 @@ public class HipotenusaTriangulo {
     System.out.println("Resultado(Hipotenusa): " + calcularHipotenusa());
   }
 
-  public static void main(String[] args) {
-    HipotenusaTriangulo objeto = new HipotenusaTriangulo();
 
-    objeto.ladoA = 12.0;
-    objeto.ladoB = 6.0;
-
-    objeto.mostrarResultado();
-  }
 }
