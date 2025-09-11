@@ -1,0 +1,109 @@
+```mermaid
+classDiagram
+  %% 1.11
+  class AreaTriangulo {
+    ladoA: Double
+    ladoB: Double
+    ladoC: Double
+    semiperimetro: Double
+    calcularArea(): Double
+    mostrarResultados(): void
+    main(args[]: String): void
+  }
+
+  %% 1.12
+  class HipotenusaTriangulo {
+    ladoA: Double
+    ladoB: Double
+    calcularHipotenusa(): Double
+    mostrarResultados(): void
+    main(args[]: String): void
+  }
+
+  %% 1.13
+  class TeoremaDelCoseno {
+    ladoB: DOuble
+    ladoC: DOuble
+    alfa: DOuble
+    calcularLadoDesconocido(): Double
+    mostrarResultados(): void
+    main(args[]: String): void
+  }
+
+  %% 1.14
+  class DistanciaDePuntos {
+    x1: Double
+    y1: Double
+    x2: Double
+    y2: Double
+    calcularDistancia(): Double
+    mostrarResultados(): void
+    main(args[]: String): void
+  }
+
+  %% 1.15
+  class ComplejoACoordenadasPolares {
+    real: Double
+    imaginario: Double
+    calcularModulo(): Double
+    calcularAngulo(): Double
+    mostrarResultados(): void
+    main(args[]: String): void
+  }
+
+  %% 1.16
+  class Prestamo {
+    capital: Double
+    tasaDeInteres: Double
+    periodos: Integer
+    calcularMontoADevolver(): Double
+    mostrarResultados(): void
+    main(args[]: String): void
+  }
+
+  %% 1.17
+  class LeyDeSenos {
+    ladoA: Double
+    ladoB: Double
+    ladoC: Double
+    alfa: Double
+    beta: Double
+    gamma: Double
+    calcularLadoA(): Double 
+    calcularLadoB(): Double 
+    mostrarResultados(): void
+    main(args[]: String): void
+  }
+
+  %% 1.18
+  class Angulo {
+    grados: Double
+    convertirACentesimales(): Double
+    convertirARadianes(): Double
+    mostrarResultados(): void
+    main(args[]: String): void
+  }
+
+  %% 1.19
+  class ConversorDeAngulo {
+    grado: Double 
+    minuto: Double
+    segundo: Double
+    calcularValorEnGradosCentesimales(): Double
+    convertirAGradosCentesimales(): Double
+    convertirAMinutosCentesimales(): Double
+    convertirASegundosCentesimales(): Double
+    mostrarResultados(): void
+    main(args[]: String): void
+  }
+
+  %% 1.20
+  class ConversorDeTemperatura {
+    gradosCelsius: Double
+    convertirAFarenheit(): Double
+    convertirAKelvin(): Double
+    convertirARankine(): Double
+    mostrarResultados(): void
+    main(args[]: String): void
+  }
+```
