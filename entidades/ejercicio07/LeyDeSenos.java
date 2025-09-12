@@ -10,7 +10,6 @@ public class LeyDeSenos {
   Double beta;
   Double gamma;
 
-
   Double calcularLadoA() {
     return (ladoC / Math.sin(alfa)) * Math.sin(gamma);
   }

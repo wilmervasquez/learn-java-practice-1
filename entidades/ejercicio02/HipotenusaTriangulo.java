@@ -12,6 +12,4 @@ public class HipotenusaTriangulo {
   void mostrarResultado() {
     System.out.println("Resultado(Hipotenusa): " + calcularHipotenusa());
   }
-
-
 }

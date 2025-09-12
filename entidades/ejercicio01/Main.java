@@ -9,5 +9,6 @@ public class Main {
     objeto.ladoC = 8.0;
 
     objeto.mostrarResultado();
+  
   }
 }
